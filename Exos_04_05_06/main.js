@@ -11,7 +11,7 @@ alert((temp < 0) ? "SOLIDE" : (temp > 100) ? "GAZEUX" : "LIQUIDE");
 const agecandidat = Number(prompt("Veuillez saisir l'âge du candidat :"));
 if (agecandidat < 30) {
     console.log("L'âge minimum pour le poste est 30 ans");
-    alert("L'âge minimum pour le poste est 30 ans");
+    alert("L'âge minimum pour le poste est de 30 ans");
 } else {
     const xp = Number(prompt("Veuillez saisir le nombre d'années d'expérience du candidat :"));
     if (xp < 5) {
@@ -21,7 +21,7 @@ if (agecandidat < 30) {
         const salairecandidat = Number(prompt("Veuillez saisir le salaire exigé :")); 
         if (salairecandidat > 40000) {
             console.log("Le salaire maximum possible est 40 000 euros.");
-            alert("Le salaire maximum possible est 40 000 euros.");
+            alert("Le salaire maximum possible est de 40 000 euros.");
         } else {
             console.log("Le candidat correspond au profil recherché.");
             alert("Le candidat correspond au profil recherché.");
