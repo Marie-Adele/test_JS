@@ -30,3 +30,7 @@ for (let chapitre = 1; chapitre <= 3; chapitre++) {
         console.log("        -partie " + chapitre + "." + partie);
     }
 }
+
+
+
+
