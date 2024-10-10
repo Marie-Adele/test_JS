@@ -1,0 +1,12 @@
+* {
+
+    font-family: 'Trebuchet MS';
+    margin: 20px;
+    justify-content: center;
+
+}
+
+button {
+    margin: 5px 0;
+    padding: 5px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercice 34</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="main.js"></script>
+  </head>
+  <body>
+    <header>
+      <img src="./img/pokeapi_256.png" alt="PokeAPI Logo" />
+      <img
+          id="pokemon-picture"
+          src="./img/pokeball.jpg"
+          alt="Pokemon Sprite"
+        />
+      <form action="#" id="pokemon-search">
+        <input
+          type="text"
+          placeholder="Nom ou N°"
+          id="search-input"
+        />
+        <button>Search</button>
+      </form>
+    </header>
+    <main>
+      <button id="pokemon-previous" disabled>&lt;&lt;</button>
+      <div id="pokemon-display">
+                <span id="pokemon-name">NAME</span>
+        <span id="pokemon-weight">WEIGHT</span>
+        <span id="pokemon-height">HEIGHT</span>
+        <ul id="pokemon-types"></ul>
+        <ul id="pokemon-abilities"></ul>
+      </div>
+      <button id="pokemon-next" disabled>&gt;&gt;</button>
+      <hr />
+    </main>
+  </body>
+</html>
