@@ -51,6 +51,9 @@ $(document).keydown(function (event) {
         loadNextPokemon();
     } else if (event.key === "ArrowLeft") { // Flèche gauche
         loadPreviousPokemon();
+    } else if (event.key === "Enter") { // Touche Entrée
+        event.preventDefault(); // Empêche le rechargement de la page
+        isEmpty();
     }
 });
 
